@@ -17,14 +17,14 @@
 
 def rhythm(str):
     str = str.split()
-list_1 = []
-for word in str:
-        sum_w = 0
-for i in word:
-    if i in 'мампарарм':
-        sum_w += 1
-list_1.append(sum_w)
-len(list_1) == list_1.count(list_1[0])
+    list_Vin = []
+    for word in str:
+        sum_wsum = 0
+        for i in word:
+            if i in 'мампарарм':
+                sum_wsum += 1
+    list_Vin.append(sum_wsum)
+    return len(list_Vin) == list_Vin.count(list_Vin[0])
 str_1 = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
 if rhythm(str_1):
     print('Парам пам-пам')
